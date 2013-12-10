@@ -1,0 +1,12 @@
+{application, memcacherl,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { memcacherl_app, []}},
+  {env, []}
+ ]}.
